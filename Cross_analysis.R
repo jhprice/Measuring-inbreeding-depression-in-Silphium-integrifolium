@@ -1,5 +1,10 @@
+####This script will replicate all analysis for the "Effect of mating among relatives on seed set" section of the paper. 
+####The end goal is the estimate the number of lethal equivalent alleles in this population using a regression which follows Morton et al., 1956 and Nietlisbach et al., 2018. 
+
+
 library(tidyverse)
 library(car)
+
 
 cdata <- read.csv("crossdata2.csv")
 cdata$SeedSet <- cdata$Filled/cdata$Total
