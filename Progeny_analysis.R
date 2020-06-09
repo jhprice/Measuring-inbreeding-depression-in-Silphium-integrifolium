@@ -1,3 +1,7 @@
+####This script will replicate all analysis for the "Effect of inbreeding in progeny" section of the paper.
+####In addition, it can be used to look at patterns of inbreeding among related maternal families
+
+
 library(tidyverse)
 library(cvequality)
 library(car)
